@@ -19,15 +19,3 @@ As a company, they need to keep close with customers, they need to hear customer
 The system has some surrounding app which support the main business flow. For example, the automotive manufacture need to know how the end customer response to their product, salesman (dealer), their service feedback, etc. So they need to blast survey timely via 3rd party messaging service. Another example, data is on of treasure of business, all data gathered from transaction, purchasing, service, processed in business intelligence, showed as information in dashboard, further, the information being one of important aspect for company to make decision or policy.
 
 The detail explanation about others system will be available on next post 🙂
-
-[Web UI Application](https://www.notion.so/Web-UI-Application-1955dd075dc780d491bfe835ea55b2e6?pvs=21)
-
-[Web API](https://www.notion.so/Web-API-1a55dd075dc7807081c4f02439efe869?pvs=21)
-
-[ERP Integration](https://www.notion.so/ERP-Integration-1a55dd075dc78000b0a7ec6e108cfd3d?pvs=21)
-
-[Scheduler](https://www.notion.so/Scheduler-1b85dd075dc780d496c6f7af7a766edd?pvs=21)
-
-[Windows Services](https://www.notion.so/Windows-Services-1b85dd075dc7805ca1faeb71b3556ac9?pvs=21)
-
-[Queue Services](https://www.notion.so/Queue-Services-1b85dd075dc7807c8391fb7a33dd99bb?pvs=21)
