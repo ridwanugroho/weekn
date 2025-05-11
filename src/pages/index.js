@@ -18,7 +18,7 @@ export default function Home() {
             You can always find me in ridwan.nugrhoho00@gmail.com
           </p>
           <div className={styles.buttons}>
-            <Link
+            {/* <Link
               className="button button--primary button--lg"
               to="/blog">
               Visit My Blog
@@ -27,7 +27,7 @@ export default function Home() {
               className="button button--secondary button--lg"
               to="/on-job-projects">
               View Projects
-            </Link>
+            </Link> */}
           </div>
         </div>
       </main>
