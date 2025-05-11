@@ -30,14 +30,20 @@ const config = {
 
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'weekn Project',
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'homeProjectSidebar',
           position: 'left',
-          label: 'Home Project',
+          label: 'Home Projects',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'onJobProjectSidebar',
+          position: 'left',
+          label: 'On Job Projects',
+        }
       ],
     },
   },
