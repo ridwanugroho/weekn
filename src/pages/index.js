@@ -1,42 +1,35 @@
+import React from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+      title="Welcome"
+      description="Welcome to my portfolio and blog site">
+      <main className={styles.main}>
+        <div className={styles.hero}>
+          <h1 className={styles.title}>Hi, I'm Ridwan Nugroho</h1>
+          <p className={styles.subtitle}>Father, developer, and lifelong learner</p>
+          <p className={styles.description}>
+            This is my page, articles, and thoughts on tech and creativity. <br />
+            You can always find me in ridwan.nugrhoho00@gmail.com
+          </p>
+          <div className={styles.buttons}>
+            <Link
+              className="button button--primary button--lg"
+              to="/blog">
+              Visit My Blog
+            </Link>
+            <Link
+              className="button button--secondary button--lg"
+              to="/projects">
+              View Projects
+            </Link>
+          </div>
+        </div>
       </main>
     </Layout>
   );
