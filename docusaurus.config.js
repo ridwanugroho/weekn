@@ -29,8 +29,13 @@ const config = {
   ],
 
   themeConfig: {
+    image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'weekn Project',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
+      },
       items: [
         {
           type: 'docSidebar',
