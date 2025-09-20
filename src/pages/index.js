@@ -11,7 +11,7 @@ export default function Home() {
       description="Welcome to my portfolio and blog site">
       <main className={styles.main}>
         <div className={styles.hero}>
-          <h1 className={styles.title}>Hi, I'm Ridwan Nugroho</h1>
+          <h1 className={styles.title}>Hi, I'm Ridwan</h1>
           <p className={styles.subtitle}>Father, developer, and lifelong learner</p>
           <p className={styles.description}>
             This is my page, articles, and thoughts on tech and creativity. <br />
